@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "381116223523",
+    "project_id": "nback1",
+    "storage_bucket": "nback1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381116223523:android:59c4ef16ae44e7e4c3e196",
+        "android_client_info": {
+          "package_name": "com.example.n_back"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAASpRviIoX5PdHsjFxxjeNdbC12guaEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
