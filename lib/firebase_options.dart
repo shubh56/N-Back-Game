@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyATBO7Da4y5_uKwLWQQa8qQMs1KSKL5WVs',
+    apiKey: 'GOOGLE_API_KEY',
     appId: '1:381116223523:ios:0470eaac10839d42c3e196',
     messagingSenderId: '381116223523',
     projectId: 'nback1',
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyATBO7Da4y5_uKwLWQQa8qQMs1KSKL5WVs',
+    apiKey: 'GOOGLE_API_KEY',
     appId: '1:381116223523:ios:0470eaac10839d42c3e196',
     messagingSenderId: '381116223523',
     projectId: 'nback1',
@@ -76,7 +76,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDITLtlZ8IUhaSQGZfjPUj85QqCkZoag2E',
+    apiKey: 'GOOGLE_API_KEY',
     appId: '1:381116223523:web:170ba074e1bf59fcc3e196',
     messagingSenderId: '381116223523',
     projectId: 'nback1',
