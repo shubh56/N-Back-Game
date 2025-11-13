@@ -35,7 +35,6 @@ class LeaderboardViewModel extends ChangeNotifier {
     _isLoading = true;
     _errorMessage = null;
     notifyListeners();
-
     try {
       _allUsers = await _firebaseRepository.getAllUsers();
       _isLoading = false;

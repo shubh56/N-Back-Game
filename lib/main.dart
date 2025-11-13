@@ -53,11 +53,6 @@ class NBack extends StatelessWidget {
   }
 }
 
-/// Lightweight widget that routes the user depending on Firebase Auth state.
-///
-/// - Shows PlayScreen when a user is already signed in (persisted session).
-/// - Shows SigninScreen when no user is signed in.
-/// Uses authStateChanges() stream so it reacts to sign-in / sign-out automatically.
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});
 
@@ -66,7 +61,6 @@ class AuthGate extends StatelessWidget {
     return StreamBuilder<User?>(
       stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
-        // while waiting for the initial auth state
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Scaffold(
             body: Center(child: CircularProgressIndicator()),
